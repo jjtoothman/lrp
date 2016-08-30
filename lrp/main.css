@@ -1,0 +1,236 @@
+/* Variables */
+/* DOM Overrides */
+html, body {
+  background-color: #212121;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  }
+a{
+  color:#fff;
+}
+
+/* Utility classes */
+/* Utility classes */
+/* Utility classes */
+/* Utility classes */
+.full-width {
+  width: 100%; }
+
+.full-height {
+  height: 100%; }
+
+.vertical-center-container {
+  display: table;
+  table-layout: fixed; }
+
+.vertical-center-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left; }
+
+/*Navigation*/
+/*Navigation*/
+/*Navigation*/
+/*Navigation*/
+.navbar {
+  height: 45px;
+  z-index: 2000;
+  border-color: none;
+  top: 0;
+  position:absolute !important;
+    
+}
+.selectedwork{
+  top: 10;
+  position:absolute !important;
+  padding-bottom:16px;
+}
+ul#mainNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 0px; }
+
+ul#mainNav li {
+  display: inline;
+  padding: 0px 0px 0px 0 px; }
+
+ul#mainNav li a {
+  font-family: 'ApercuBold';
+  font-size: 16px;
+  padding: 0px 15px;
+  color: #fff;
+  opacity:.54;
+  letter-spacing: -0.5px;
+  text-decoration: none; 
+}
+
+ul#mainNav li a:hover {
+  opacity:1;
+  text-decoration: none; }
+
+ul#mainNav li a:visited {
+  text-decoration: none; }
+
+.selected {
+ opacity:1;
+}
+
+
+
+/*Type*/
+/*Type*/
+/*Type*/
+/*Type*/
+@font-face { font-family: 'ApercuNormal'; src: url("fonts/apercu_light.eot"); src: url("fonts/apercu_light.eot") format("embedded-opentype"), url("fonts/apercu_light.woff2") format("woff2"), url("fonts/apercu_light.woff") format("woff"), url("fonts/apercu_light.ttf") format("truetype"), url("fonts/apercu_light.svg#Apercu") format("svg"); }
+@font-face { font-family: 'ApercuBold'; src: url("fonts/apercu_bold.eot"); src: url("fonts/apercu_bold.eot") format("embedded-opentype"), url("fonts/apercu_bold.woff2") format("woff2"), url("fonts/apercu_bold.woff") format("woff"), url("fonts/apercu_bold.ttf") format("truetype"), url("fonts/apercu_bold.svg#ApercuBold") format("svg"); }
+@font-face { font-family: 'NoeDisplayBlack'; src: url("fonts/NoeDisplayBlack.eot"); src: url("fonts/NoeDisplayBlack.eot") format("embedded-opentype"), url("fonts/NoeDisplayBlack.woff2") format("woff2"), url("fonts/NoeDisplayBlack.woff") format("woff"), url("fonts/NoeDisplayBlack.ttf") format("truetype"), url("fonts/NoeDisplayBlack.svg") format("svg"); }
+
+
+h1{
+  font-family:'ApercuNormal';
+  color:#fff;
+  font-size:24px;
+  line-height: 36px;
+  margin:0px;
+  font-weight:normal;
+}
+h2{
+  font-family:'ApercuNormal';
+  font-size:24px;
+  line-height:32px;
+  color:#fff;
+  margin-bottom:16px;
+}
+
+h3{
+  font-family:'ApercuNormal';
+  font-size:17px;
+  line-height:32px;
+  color:#fff;
+  opacity:.6;
+  margin-bottom:48px; 
+}
+h3.decorative{
+  font-family:'ApercuNormal';
+  font-size:48px;
+  opacity:.1;
+  color:#fff;
+  margin-top:30px;
+
+}
+h4{
+  font-family:'ApercuNormal';
+  font-size:16px;
+  opacity:.6;
+  margin:0px;
+  line-height: 26px;
+  color:#fff;
+  text-decoration: underline;
+}
+h4.contact a:hover, a:focus{
+  color:#fff;
+  opacity:1 !important;
+}
+h5{
+  font-family:'ApercuBold';
+  font-size:12px;
+  opacity:1;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+/*Landing*/
+/*Landing*/
+/*Landing*/
+/*Landing*/
+
+
+.landing{
+  height: 100%;
+  width: 100%;
+  text-align: left;
+   }
+
+.logo{
+  font-family:'NoeDisplayBlack';
+  font-size:22px;
+  color:#fff;
+  letter-spacing: 1px;
+  line-height: 0px;
+  margin-top: 48px;
+  text-decoration: none;
+}
+.logo a:hover{
+  text-decoration: none;
+  color:#fff;
+}
+
+.logo a:visited{
+  text-decoration: none;
+}
+#zigzag{
+    width: 785px;
+    height: 693px;
+    background-color:none;
+    /*background-image: url("../img/zigzag.jpg"); */
+    z-index: 10;
+    margin-top: -25%;
+    margin-left:-5 %;
+    position: absolute;
+}
+
+/*Work*/
+/*Work*/
+/*Work*/
+/*Work*/
+.container2 {
+    padding: 0 2%;
+    max-width: 1640px;
+    margin: 0 auto;
+}
+.photo, .misc {
+  padding: 0;
+  margin-bottom: 14px;
+  background: #EAE9E8;
+  position: relative;
+  }
+
+.photo div img {
+    max-height: 900px;
+    max-width: 100%;
+}
+.hero.photo div img {
+  max-height: 1240px;
+  }
+.photo div {
+    background: none;
+    margin: 0;
+    position: relative;
+    text-align:center;
+}
+.set .photo {
+  width: 49.5%;
+  margin-right: 1%;
+  float: left;
+  }
+
+.set .photo.last {
+  margin-right: 0;
+  }
+  .singleItem{
+    max-height:100% !important;
+  }
+
+/* Responsive Stuff */
+/* Responsive Stuff */
+/* Responsive Stuff */
+/* Responsive Stuff */
+
+/* ~ 1000px Wide */
+@media all and (max-width: 72em) {
+   }
+/* ~ 640px Max Wide*/
+@media (max-width: 767px) {
+   }
